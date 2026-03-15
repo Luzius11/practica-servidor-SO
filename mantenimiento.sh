@@ -21,4 +21,4 @@ echo "Mantenimiento completado $(date)"
 cd ~/practica1
 git add backups
 git commit -m "Nuevo backup $(date)"
-git push
+git push --set-upstream origin master
