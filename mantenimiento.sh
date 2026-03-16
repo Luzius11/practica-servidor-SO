@@ -7,7 +7,6 @@ date
 sudo apt update
 sudo apt upgrade -y
 
-mkdir -p ~/backups
 
 tar --exclude='/home/bobo/practica1/backups' \
     --exclude='/home/bobo/practica1/.git' \
